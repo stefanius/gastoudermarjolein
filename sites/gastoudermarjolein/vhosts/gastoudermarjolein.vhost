@@ -1,12 +1,12 @@
 server {
     listen      80;
-    server_name dagvandeweek.dev;
+    server_name gastoudermarjolein.dev;
 
-    access_log  /var/log/nginx/dagvandeweek.access.log;
-    error_log   /var/log/nginx/dagvandeweek.error.log;
+    access_log  /var/log/nginx/gastoudermarjolein.access.log;
+    error_log   /var/log/nginx/gastoudermarjolein.error.log;
 
     rewrite_log on;
-    root        /home/vagrant/sites/dagvandeweek/public_html/web;
+    root        /home/vagrant/sites/gastoudermarjolein/public_html/web;
 
     location / {
         # try to serve file directly, fallback to app.php
