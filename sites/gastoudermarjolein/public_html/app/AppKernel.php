@@ -36,6 +36,7 @@ class AppKernel extends Kernel
             new Stef\DagVanDeWeekBundle\StefDagVanDeWeekBundle(),
             new Stef\RedirectTrailingSlashBundle\StefRedirectTrailingSlashBundle(),
             new Stef\SpecialDatesBundle\StefSpecialDatesBundle(),
+            new Stef\GastouderMarjoleinBundle\StefGastouderMarjoleinBundle(),
         );
 
         if (in_array($this->getEnvironment(), array('dev', 'test'))) {

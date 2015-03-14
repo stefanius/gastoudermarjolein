@@ -1,3 +1,7 @@
+stef_gastouder_marjolein:
+    resource: "@StefGastouderMarjoleinBundle/Resources/config/routing.yml"
+    prefix:   /
+
 stef_redirect_trailing_slash:
     resource: "@StefRedirectTrailingSlashBundle/Resources/config/routing.yml"
     prefix:   /
