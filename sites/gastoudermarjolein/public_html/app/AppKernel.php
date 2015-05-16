@@ -33,9 +33,7 @@ class AppKernel extends Kernel
             /* Stefanius */
             new Stef\GenerateFixturesBundle\StefGenerateFixturesBundle(),
             new Stef\SimpleCmsBundle\StefSimpleCmsBundle(),
-            new Stef\DagVanDeWeekBundle\StefDagVanDeWeekBundle(),
             new Stef\RedirectTrailingSlashBundle\StefRedirectTrailingSlashBundle(),
-            new Stef\SpecialDatesBundle\StefSpecialDatesBundle(),
             new Stef\GastouderMarjoleinBundle\StefGastouderMarjoleinBundle(),
         );
 

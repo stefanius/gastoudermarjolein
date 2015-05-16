@@ -16,7 +16,3 @@ stef_simple_cms_crud:
 stef_simple_cms_index:
     resource: "@StefSimpleCmsBundle/Resources/config/routing/index.yml"
     prefix:   /cms
-
-stef_dag_van_de_week:
-    resource: "@StefDagVanDeWeekBundle/Resources/config/routing.yml"
-    prefix:   /
