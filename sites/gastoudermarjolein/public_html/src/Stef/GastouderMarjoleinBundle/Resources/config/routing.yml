@@ -1,3 +1,7 @@
 stef_gastouder_marjolein_homepage:
     path:     /
     defaults: { _controller: StefGastouderMarjoleinBundle:Index:index }
+
+stef_gastouder_marjolein_contact:
+    path:     /contact
+    defaults: { _controller: StefGastouderMarjoleinBundle:Contact:contact }
