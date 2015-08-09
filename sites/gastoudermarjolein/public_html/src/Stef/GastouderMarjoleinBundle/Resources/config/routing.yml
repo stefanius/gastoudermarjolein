@@ -5,3 +5,35 @@ stef_gastouder_marjolein_homepage:
 stef_gastouder_marjolein_contact:
     path:     /contact
     defaults: { _controller: StefGastouderMarjoleinBundle:Contact:contact }
+
+stef_gastouder_marjolein_timeplan:
+    path:     /dagindeling
+    defaults:
+        _controller: StefGastouderMarjoleinBundle:StaticPages:render
+        description:  "Als gastouder is het een goed gebruik om een regelmatige dagindeling op te stellen. Ik heb hierbij zoveel mogelijk rekening gehouden met het leven van een normaal gezin."
+        title:        "Dagindeling"
+        template:     StefGastouderMarjoleinBundle:Pages:timeplan.html.twig
+
+stef_gastouder_marjolein_openingshours:
+    path:     /openingstijden
+    defaults:
+        _controller: StefGastouderMarjoleinBundle:StaticPages:render
+        description:  "Gastouder Marjolein uit Dordrecht bied opvang aan zowel overdag als in de nacht. Kinderen kunnen hier ook logeren, ik heb hier de beschikking over een kinderkamer."
+        title:        "Openingstijden"
+        template:     StefGastouderMarjoleinBundle:Pages:openingshours.html.twig
+
+stef_gastouder_marjolein_about_dordrecht:
+    path:     /over-dordrecht
+    defaults:
+        _controller: StefGastouderMarjoleinBundle:StaticPages:render
+        description:  "Dordrecht is een van de oudste steden van Nederland. In deze mooie stad is Gastouder Marjolein gevestigd. Lees hier wat Dordrecht te bieden heeft!"
+        title:        "Over Dordrecht"
+        template:     StefGastouderMarjoleinBundle:Pages:about-dordrecht.html.twig
+
+stef_gastouder_marjolein_about_de_staart:
+    path:     /over-de-staart
+    defaults:
+        _controller: StefGastouderMarjoleinBundle:StaticPages:render
+        description:  "De Dordtse wijk De Staart heeft een prachtige ligging aan het groen. Ook is hier Gastouder Marjolein actief om kinderen uit de omgeving op te vangen en bezig te houden."
+        title:        "Over De Staart"
+        template:     StefGastouderMarjoleinBundle:Pages:about-de-staart.html.twig
