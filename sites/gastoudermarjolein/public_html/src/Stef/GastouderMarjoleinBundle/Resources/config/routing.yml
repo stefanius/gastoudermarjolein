@@ -37,3 +37,11 @@ stef_gastouder_marjolein_about_de_staart:
         description:  "De Dordtse wijk De Staart heeft een prachtige ligging aan het groen. Ook is hier Gastouder Marjolein actief om kinderen uit de omgeving op te vangen en bezig te houden."
         title:        "Over De Staart"
         template:     StefGastouderMarjoleinBundle:Pages:about-de-staart.html.twig
+
+stef_gastouder_marjolein_about_roommates:
+    path:     /over-mijn-huisgenoten
+    defaults:
+        _controller: StefGastouderMarjoleinBundle:StaticPages:render
+        description:  "In onze ruime woning aan de Haringvlietstraat in Dordrecht woon ik niet alleen. Ik woon daar samen met mijn verloofde en onze hond Lieve."
+        title:        "Over mijn huisgenoten"
+        template:     StefGastouderMarjoleinBundle:Pages:roommates.html.twig
