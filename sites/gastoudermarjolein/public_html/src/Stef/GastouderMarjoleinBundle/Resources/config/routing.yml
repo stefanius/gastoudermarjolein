@@ -39,9 +39,9 @@ stef_gastouder_marjolein_about_de_staart:
         template:     StefGastouderMarjoleinBundle:Pages:about-de-staart.html.twig
 
 stef_gastouder_marjolein_about_roommates:
-    path:     /over-mijn-huisgenoten
+    path:     /over-mijn-gezin
     defaults:
         _controller: StefGastouderMarjoleinBundle:StaticPages:render
         description:  "In onze ruime woning aan de Haringvlietstraat in Dordrecht woon ik niet alleen. Ik woon daar samen met mijn verloofde en onze hond Lieve."
-        title:        "Over mijn huisgenoten"
+        title:        "Over mijn gezin"
         template:     StefGastouderMarjoleinBundle:Pages:roommates.html.twig
