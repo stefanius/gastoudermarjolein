@@ -1,12 +1,12 @@
-stef_gastouder_marjolein_homepage:
+stef_gastouder_marjolein_page_homepage:
     path:     /
     defaults: { _controller: StefGastouderMarjoleinBundle:Index:index }
 
-stef_gastouder_marjolein_contact:
+stef_gastouder_marjolein_page_contact:
     path:     /contact
     defaults: { _controller: StefGastouderMarjoleinBundle:Contact:contact }
 
-stef_gastouder_marjolein_timeplan:
+stef_gastouder_marjolein_page_timeplan:
     path:     /dagindeling
     defaults:
         _controller: StefGastouderMarjoleinBundle:StaticPages:render
@@ -14,7 +14,7 @@ stef_gastouder_marjolein_timeplan:
         title:        "Dagindeling"
         template:     StefGastouderMarjoleinBundle:Pages:timeplan.html.twig
 
-stef_gastouder_marjolein_openingshours:
+stef_gastouder_marjolein_page_openingshours:
     path:     /openingstijden
     defaults:
         _controller: StefGastouderMarjoleinBundle:StaticPages:render
@@ -22,7 +22,7 @@ stef_gastouder_marjolein_openingshours:
         title:        "Openingstijden"
         template:     StefGastouderMarjoleinBundle:Pages:openingshours.html.twig
 
-stef_gastouder_marjolein_about_dordrecht:
+stef_gastouder_marjolein_page_about_dordrecht:
     path:     /over-dordrecht
     defaults:
         _controller: StefGastouderMarjoleinBundle:StaticPages:render
@@ -30,7 +30,7 @@ stef_gastouder_marjolein_about_dordrecht:
         title:        "Over Dordrecht"
         template:     StefGastouderMarjoleinBundle:Pages:about-dordrecht.html.twig
 
-stef_gastouder_marjolein_about_de_staart:
+stef_gastouder_marjolein_page_about_de_staart:
     path:     /over-de-staart
     defaults:
         _controller: StefGastouderMarjoleinBundle:StaticPages:render
@@ -38,7 +38,7 @@ stef_gastouder_marjolein_about_de_staart:
         title:        "Over De Staart"
         template:     StefGastouderMarjoleinBundle:Pages:about-de-staart.html.twig
 
-stef_gastouder_marjolein_about_roommates:
+stef_gastouder_marjolein_page_about_roommates:
     path:     /even-voorstellen
     defaults:
         _controller: StefGastouderMarjoleinBundle:StaticPages:render
@@ -46,7 +46,7 @@ stef_gastouder_marjolein_about_roommates:
         title:        "Even voorstellen"
         template:     StefGastouderMarjoleinBundle:Pages:roommates.html.twig
 
-stef_gastouder_marjolein_costs:
+stef_gastouder_marjolein_page_costs:
     path:     /kosten
     defaults:
         _controller: StefGastouderMarjoleinBundle:StaticPages:render
@@ -54,10 +54,15 @@ stef_gastouder_marjolein_costs:
         title:        "Kosten"
         template:     StefGastouderMarjoleinBundle:Pages:costs.html.twig
 
-stef_gastouder_marjolein_curriculum_vitae:
+stef_gastouder_marjolein_page_curriculum_vitae:
     path:     /curriculum-vitae
     defaults:
         _controller: StefGastouderMarjoleinBundle:StaticPages:render
         description:  "In heden en verleden heb ik een ruime ervaring opgedaan in het werken met kinderen en de zorg. Als gastouder komen veel van deze kwaliteiten samen."
         title:        "Curriculum vitae"
         template:     StefGastouderMarjoleinBundle:Pages:curriculum-vitae.html.twig
+
+stef_gastouder_marjolein_sitemap:
+    path:     /sitemap.xml
+    defaults:
+        _controller: StefGastouderMarjoleinBundle:Sitemap:pagesSitemap
