@@ -15,6 +15,11 @@
     <script src="/assets/js/hover.zoom.js"></script>
     <script src="/assets/js/hover.zoom.conf.js"></script>
 
+    <!-- Owl Carousel Assets -->
+    <link href="/assets/css/owl.carousel.css" rel="stylesheet">
+    <link href="/assets/css/owl.theme.css" rel="stylesheet">
+
+
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
     <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
@@ -30,8 +35,30 @@
 
 {% endblock %}
 
-{% include 'StefLocatieInformatieBundle:Elements:footer.html.twig' %}
-{% include 'StefLocatieInformatieBundle:Elements:js.html.twig' %}
+{% include 'StefGastouderMarjoleinBundle:Elements:footer.html.twig' %}
+{% include 'StefGastouderMarjoleinBundle:Elements:js.html.twig' %}
 
+<script src="/assets/js/owl.carousel.min.js"></script>
+<script>
+    $(document).ready(function() {
+
+        $("#owl-demo").owlCarousel({
+
+            navigation : true, // Show next and prev buttons
+            slideSpeed : 300,
+            paginationSpeed : 400,
+            singleItem:true
+
+            // "singleItem:true" is a shortcut for:
+            // items : 1,
+            // itemsDesktop : false,
+            // itemsDesktopSmall : false,
+            // itemsTablet: false,
+            // itemsMobile : false
+
+        });
+
+    });
+</script>
 </body>
 </html>
