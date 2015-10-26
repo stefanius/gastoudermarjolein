@@ -62,6 +62,18 @@ stef_gastouder_marjolein_page_curriculum_vitae:
         title:        "Curriculum vitae"
         template:     StefGastouderMarjoleinBundle:Pages:curriculum-vitae.html.twig
 
+stef_gastouder_marjolein_news_archive_index:
+    pattern:  /nieuws
+    defaults: { _controller: StefGastouderMarjoleinBundle:News:showMainNewsPage }
+    requirements:
+        _method:  GET
+
+stef_gastouder_marjolein_news_show:
+    pattern:  /nieuws/{slug}
+    defaults: { _controller: StefGastouderMarjoleinBundle:News:show }
+    requirements:
+        _method:  GET
+
 stef_gastouder_marjolein_sitemap:
     path:     /sitemap.xml
     defaults:
