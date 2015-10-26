@@ -1,10 +1,11 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
     "hash": "791ebf57aa9411cb69b26e894b98f6a7",
+    "content-hash": "d279afd0cc17465bdf447a06807d800a",
     "packages": [
         {
             "name": "braincrafted/bootstrap-bundle",
@@ -710,7 +711,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/inflector/zipball/e5eaf8c7ded0877195b5d2848491e17b1c0a6c4d",
+                "url": "https://api.github.com/repos/doctrine/inflector/zipball/097e7ba84f64a427e55008117ef2bb94096731dc",
                 "reference": "e5eaf8c7ded0877195b5d2848491e17b1c0a6c4d",
                 "shasum": ""
             },
@@ -1219,7 +1220,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/FriendsOfSymfony/FOSUserBundle/zipball/f54031a652846cd8e7b12119fe713eae90e24cf9",
+                "url": "https://api.github.com/repos/FriendsOfSymfony/FOSUserBundle/zipball/d5b28c367d393f9d9fbc48c4138b2a74d51c0c83",
                 "reference": "f54031a652846cd8e7b12119fe713eae90e24cf9",
                 "shasum": ""
             },
@@ -1527,7 +1528,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/schmittjoh/JMSDiExtraBundle/zipball/4a0db1a5469940f83cc7d9c156224469ec8b6c01",
+                "url": "https://api.github.com/repos/schmittjoh/JMSDiExtraBundle/zipball/e2181b81c9f8ecdc1538404bb192e442d7469b3d",
                 "reference": "4a0db1a5469940f83cc7d9c156224469ec8b6c01",
                 "shasum": ""
             },
@@ -1749,7 +1750,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/schmittjoh/JMSSerializerBundle/zipball/8bce2e83779ebdf70116018e68d8d9f930bbe124",
+                "url": "https://api.github.com/repos/schmittjoh/JMSSerializerBundle/zipball/a63cd330588eff18f6deb0251fd142d2c1fe30b6",
                 "reference": "8bce2e83779ebdf70116018e68d8d9f930bbe124",
                 "shasum": ""
             },
@@ -3036,7 +3037,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/stefanius/generate-fixtures-bundle/zipball/9e63c079a39ed84c196fded8ac6fb0f640b469ca",
+                "url": "https://api.github.com/repos/stefanius/generate-fixtures-bundle/zipball/357f4f906b6b79579d8e0e98ffa7d65df15e0376",
                 "reference": "9e63c079a39ed84c196fded8ac6fb0f640b469ca",
                 "shasum": ""
             },
@@ -3075,7 +3076,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/stefanius/KeyValueManipulation/zipball/ee621f38585811b49fe3a296aba9a5940d0e7391",
+                "url": "https://api.github.com/repos/stefanius/KeyValueManipulation/zipball/e191420369c678c270d634038598f98ccb825b71",
                 "reference": "ee621f38585811b49fe3a296aba9a5940d0e7391",
                 "shasum": ""
             },
@@ -3113,7 +3114,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/stefanius/manipulation/zipball/d8b8a7b4fadf8220c386259543a10b381ec1d1a5",
+                "url": "https://api.github.com/repos/stefanius/manipulation/zipball/8752050c62be2e1fe05c35fcbec6867ca28bf484",
                 "reference": "d8b8a7b4fadf8220c386259543a10b381ec1d1a5",
                 "shasum": ""
             },
@@ -3175,45 +3176,30 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/stefanius/simple-cms-bundle.git",
-                "reference": "9d403d471aee3f10dc3dc52c895fc6e0b7772af2"
+                "reference": "d3f0af7b87ff6e603a883b0e9913717050346538"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/stefanius/simple-cms-bundle/zipball/9d403d471aee3f10dc3dc52c895fc6e0b7772af2",
-                "reference": "9d403d471aee3f10dc3dc52c895fc6e0b7772af2",
+                "url": "https://api.github.com/repos/stefanius/simple-cms-bundle/zipball/d3f0af7b87ff6e603a883b0e9913717050346538",
+                "reference": "d3f0af7b87ff6e603a883b0e9913717050346538",
                 "shasum": ""
             },
             "require": {
                 "braincrafted/bootstrap-bundle": "~2.0",
-                "doctrine/doctrine-bundle": "~1.2",
-                "doctrine/doctrine-fixtures-bundle": "~2.2",
-                "doctrine/inflector": "dev-master",
-                "doctrine/orm": "v2.4.2",
                 "egeloen/ckeditor-bundle": "~2.0",
                 "egeloen/google-map-bundle": "~2.2",
                 "friendsofsymfony/user-bundle": "~2.0@dev",
                 "incenteev/composer-parameter-handler": "~2.0",
-                "jms/di-extra-bundle": "dev-master",
-                "jms/serializer-bundle": "dev-master",
+                "jms/serializer-bundle": "0.13.*@dev",
                 "jquery/jquery": "1.10.*",
                 "nelmio/alice": "v1.6.0",
                 "php": ">=5.5",
                 "phpunit/phpunit": "~4.1",
-                "sensio/distribution-bundle": "~2.3",
-                "sensio/framework-extra-bundle": "~3.0",
-                "sensio/generator-bundle": "~2.3",
-                "stef/crud-contract": "dev-master",
-                "stef/generate-fixtures-bundle": "dev-master",
                 "stef/key-value-manipulation": "dev-master",
                 "stef/manipulation": "dev-master",
                 "stef/slug-manipulation": "dev-master",
-                "symfony/assetic-bundle": "~2.3",
-                "symfony/filesystem": "2.5.3",
-                "symfony/monolog-bundle": "~2.4",
-                "symfony/swiftmailer-bundle": "~2.3",
-                "symfony/symfony": "~2.5",
                 "twbs/bootstrap": "3.0.*",
-                "twig/extensions": "~1.0"
+                "twig/extensions": "~1.2"
             },
             "type": "project",
             "autoload": {
@@ -3247,7 +3233,7 @@
                 "source": "https://github.com/stefanius/simple-cms-bundle/tree/master",
                 "issues": "https://github.com/stefanius/simple-cms-bundle/issues"
             },
-            "time": "2015-01-02 09:27:47"
+            "time": "2015-06-20 19:18:11"
         },
         {
             "name": "stef/slug-manipulation",
@@ -3340,12 +3326,12 @@
             "version": "v2.5.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/symfony/AsseticBundle.git",
+                "url": "https://github.com/symfony/assetic-bundle.git",
                 "reference": "90ea7fb66d6d5245fd4afc16e4c8070214254fec"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/AsseticBundle/zipball/90ea7fb66d6d5245fd4afc16e4c8070214254fec",
+                "url": "https://api.github.com/repos/symfony/assetic-bundle/zipball/90ea7fb66d6d5245fd4afc16e4c8070214254fec",
                 "reference": "90ea7fb66d6d5245fd4afc16e4c8070214254fec",
                 "shasum": ""
             },
@@ -3405,12 +3391,12 @@
             "target-dir": "Symfony/Component/Filesystem",
             "source": {
                 "type": "git",
-                "url": "https://github.com/symfony/Filesystem.git",
+                "url": "https://github.com/symfony/filesystem.git",
                 "reference": "c1309b0ee195ad264a4314435bdaecdfacb8ae9c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/Filesystem/zipball/c1309b0ee195ad264a4314435bdaecdfacb8ae9c",
+                "url": "https://api.github.com/repos/symfony/filesystem/zipball/c1309b0ee195ad264a4314435bdaecdfacb8ae9c",
                 "reference": "c1309b0ee195ad264a4314435bdaecdfacb8ae9c",
                 "shasum": ""
             },
@@ -3451,12 +3437,12 @@
             "version": "v2.7.1",
             "source": {
                 "type": "git",
-                "url": "https://github.com/symfony/MonologBundle.git",
+                "url": "https://github.com/symfony/monolog-bundle.git",
                 "reference": "9320b6863404c70ebe111e9040dab96f251de7ac"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/MonologBundle/zipball/9320b6863404c70ebe111e9040dab96f251de7ac",
+                "url": "https://api.github.com/repos/symfony/monolog-bundle/zipball/9320b6863404c70ebe111e9040dab96f251de7ac",
                 "reference": "9320b6863404c70ebe111e9040dab96f251de7ac",
                 "shasum": ""
             },
@@ -3510,12 +3496,12 @@
             "version": "v2.3.8",
             "source": {
                 "type": "git",
-                "url": "https://github.com/symfony/SwiftmailerBundle.git",
+                "url": "https://github.com/symfony/swiftmailer-bundle.git",
                 "reference": "970b13d01871207e81d17b17ddda025e7e21e797"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/SwiftmailerBundle/zipball/970b13d01871207e81d17b17ddda025e7e21e797",
+                "url": "https://api.github.com/repos/symfony/swiftmailer-bundle/zipball/970b13d01871207e81d17b17ddda025e7e21e797",
                 "reference": "970b13d01871207e81d17b17ddda025e7e21e797",
                 "shasum": ""
             },
