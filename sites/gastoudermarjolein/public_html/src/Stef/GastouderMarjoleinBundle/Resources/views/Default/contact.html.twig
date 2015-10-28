@@ -1,0 +1,29 @@
+{% extends "StefGastouderMarjoleinBundle::freelayout.html.twig" %}
+
+{% block htmlbody %}
+
+    <div class="container">
+        <div class="row">
+            <div class="index-slider">
+                <div id="owl-demo" class="owl-carousel owl-theme">
+                    <div class="item"><img src="/assets/img/slider/DSC00528.JPG" alt="The Last of us"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container pt">
+        <div class="row mt">
+            {{ page.body|raw }}
+        </div>
+
+        <div class="row mt">
+            <h2>Contactformulier</h2>
+            <form action="{{ path('stef_gastouder_marjolein_page_contact') }}" method="post" {{form_enctype(form) }}>
+                {{ form_widget(form) }}
+                <button type="submit">Verstuur</button>
+            </form>
+        </div>
+    </div>
+
+{% endblock %}
