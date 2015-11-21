@@ -30,11 +30,13 @@ class AppKernel extends Kernel
             new Ivory\GoogleMapBundle\IvoryGoogleMapBundle(),
             /* WhiteOctober */
             new WhiteOctober\BreadcrumbsBundle\WhiteOctoberBreadcrumbsBundle(),
-            /* Stefanius */
+            /* Stefanius Old style*/
             new Stef\GenerateFixturesBundle\StefGenerateFixturesBundle(),
             new Stef\SimpleCmsBundle\StefSimpleCmsBundle(),
             new Stef\RedirectTrailingSlashBundle\StefRedirectTrailingSlashBundle(),
             new Stef\GastouderMarjoleinBundle\StefGastouderMarjoleinBundle(),
+            /* Stefanius New style*/
+            new Stefanius\LowerCaseRedirectorBundle\StefaniusLowerCaseRedirectorBundle()
         );
 
         if (in_array($this->getEnvironment(), array('dev', 'test'))) {
