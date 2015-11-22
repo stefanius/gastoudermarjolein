@@ -6,6 +6,9 @@
     "autoload": {
         "psr-0": { "": "src/" }
     },
+    "autoload-dev": {
+        "classmap": [ "tests/" ]
+    },
     "repositories": [
         {
             "type": "package",
