@@ -26,6 +26,9 @@
         <server name="KERNEL_DIR" value="/path/to/your/app/" />
     </php>
     -->
+    <php>
+        <env name="SYMFONY_ENV" value="test"/>
+    </php>
 
     <filter>
         <whitelist>
