@@ -30,6 +30,12 @@ create-fixtures:
 test:
 	php bin/phpunit -c app/
 
+testenv:
+	php app/console doctrine:cache:clear-result --env=test
+	php app/console doctrine:cache:clear-query --env=test
+	php app/console doctrine:cache:clear-meta --env=test
+	php app/console doctrine:schema:update --force --complete --env=test
+
 restart-nginx:
 	sudo service nginx stop
 	sudo service nginx start

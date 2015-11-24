@@ -21,7 +21,7 @@ server {
         fastcgi_param HTTPS off;
     }
 
-	include /vagrant/dev-setup/*.redirects;
+	include /home/vagrant/sites/gastoudermarjolein/*.redirects;
 
     # Static files.
     # Set expire headers, Turn off access log
