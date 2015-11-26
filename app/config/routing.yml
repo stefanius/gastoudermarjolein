@@ -11,6 +11,7 @@ stef_redirect_trailing_slash:
     prefix:   /
 
 fos_user:
+    #resource: "@FOSUserBundle/Resources/config/routing/security.xml"
     resource: "@FOSUserBundle/Resources/config/routing/all.xml"
 
 stef_simple_cms_crud:
