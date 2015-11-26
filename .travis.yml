@@ -13,7 +13,7 @@ install:
   - composer self-update
 
 before_script:
-  - composer install --no-interaction --no-scripts
+  - composer install --no-interaction
 
 script:
   - ./vendor/bin/phpunit -c app/ --coverage-clover=coverage.clover
