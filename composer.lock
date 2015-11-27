@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "e83d227eb8ece00beb2b22df177af397",
-    "content-hash": "009a5986745143ca07ce1f55fec43adb",
+    "hash": "37aab8fc6f8da3e6b22680f8e7c88422",
+    "content-hash": "0d3a6462b3cc2ada718f36cd68e8d6ff",
     "packages": [
         {
             "name": "braincrafted/bootstrap-bundle",
@@ -552,24 +552,23 @@
         },
         {
             "name": "doctrine/doctrine-cache-bundle",
-            "version": "1.2.1",
+            "version": "1.2.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/DoctrineCacheBundle.git",
-                "reference": "3233bc78e222d528ca89a6a47d48d6f37888e95e"
+                "reference": "030ff41ef1db66370b36467086bfb817a661fe6a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/DoctrineCacheBundle/zipball/3233bc78e222d528ca89a6a47d48d6f37888e95e",
-                "reference": "3233bc78e222d528ca89a6a47d48d6f37888e95e",
+                "url": "https://api.github.com/repos/doctrine/DoctrineCacheBundle/zipball/030ff41ef1db66370b36467086bfb817a661fe6a",
+                "reference": "030ff41ef1db66370b36467086bfb817a661fe6a",
                 "shasum": ""
             },
             "require": {
                 "doctrine/cache": "^1.4.2",
                 "doctrine/inflector": "~1.0",
                 "php": ">=5.3.2",
-                "symfony/doctrine-bridge": "~2.2|~3.0",
-                "symfony/security-acl": "~2.3|~3.0"
+                "symfony/doctrine-bridge": "~2.2|~3.0"
             },
             "require-dev": {
                 "instaclick/coding-standard": "~1.1",
@@ -582,13 +581,17 @@
                 "symfony/finder": "~2.2|~3.0",
                 "symfony/framework-bundle": "~2.2|~3.0",
                 "symfony/phpunit-bridge": "~2.7|~3.0",
+                "symfony/security-acl": "~2.3|~3.0",
                 "symfony/validator": "~2.2|~3.0",
                 "symfony/yaml": "~2.2|~3.0"
+            },
+            "suggest": {
+                "symfony/security-acl": "For using this bundle to cache ACLs"
             },
             "type": "symfony-bundle",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.0.x-dev"
+                    "dev-master": "1.2.x-dev"
                 }
             },
             "autoload": {
@@ -632,7 +635,7 @@
                 "cache",
                 "caching"
             ],
-            "time": "2015-11-05 13:48:27"
+            "time": "2015-11-27 04:59:07"
         },
         {
             "name": "doctrine/doctrine-fixtures-bundle",
@@ -1159,47 +1162,6 @@
                 "json"
             ],
             "time": "2014-11-08 10:51:34"
-        },
-        {
-            "name": "frequence-web/calendr-bundle",
-            "version": "1.0.0",
-            "target-dir": "FrequenceWeb/Bundle/CalendRBundle",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/frequence-web/FrequenceWebCalendRBundle.git",
-                "reference": "469dc42aa37d46cf4702ffa70353587e9305d63b"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/frequence-web/FrequenceWebCalendRBundle/zipball/469dc42aa37d46cf4702ffa70353587e9305d63b",
-                "reference": "469dc42aa37d46cf4702ffa70353587e9305d63b",
-                "shasum": ""
-            },
-            "require": {
-                "symfony/framework-bundle": "2.*",
-                "yohang/calendr": ">=1.0"
-            },
-            "type": "symfony-bundle",
-            "autoload": {
-                "psr-0": {
-                    "FrequenceWeb\\Bundle\\CalendRBundle": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Yohan Giarelli",
-                    "homepage": "http://github.com/yohang"
-                }
-            ],
-            "description": "This bundle provides an integration of the CalendR library",
-            "keywords": [
-                "calendar"
-            ],
-            "time": "2013-01-23 12:08:05"
         },
         {
             "name": "friendsofsymfony/user-bundle",
@@ -3162,39 +3124,6 @@
             "time": "2015-03-17 06:36:52"
         },
         {
-            "name": "stef/crud-contract",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/stefanius/crudcontract.git",
-                "reference": "d5691e54548f219647579407cc55a34b2be078d5"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/stefanius/crudcontract/zipball/d5691e54548f219647579407cc55a34b2be078d5",
-                "reference": "d5691e54548f219647579407cc55a34b2be078d5",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.4"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Stef\\CrudContract\\": "src/Stef/CrudContract/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "authors": [
-                {
-                    "name": "Stefanius",
-                    "email": "sgrootveld@gmail.com"
-                }
-            ],
-            "description": "Base contract (interface) to setup a CRUD controller",
-            "time": "2014-11-11 20:23:25"
-        },
-        {
             "name": "stef/generate-fixtures-bundle",
             "version": "dev-master",
             "source": {
@@ -3340,16 +3269,16 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/stefanius/simple-cms-bundle.git",
-                "reference": "3e148295ed3b80ab673f26039796cffe32d5b56c"
+                "reference": "aff0dc14006f28f7a011a110d331c8da07230f6c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/stefanius/simple-cms-bundle/zipball/3e148295ed3b80ab673f26039796cffe32d5b56c",
-                "reference": "3e148295ed3b80ab673f26039796cffe32d5b56c",
+                "url": "https://api.github.com/repos/stefanius/simple-cms-bundle/zipball/aff0dc14006f28f7a011a110d331c8da07230f6c",
+                "reference": "aff0dc14006f28f7a011a110d331c8da07230f6c",
                 "shasum": ""
             },
             "require": {
-                "braincrafted/bootstrap-bundle": "~2.0",
+                "braincrafted/bootstrap-bundle": "~2.1",
                 "egeloen/ckeditor-bundle": "~2.0",
                 "egeloen/google-map-bundle": "~2.2",
                 "friendsofsymfony/user-bundle": "~2.0@dev",
@@ -3362,8 +3291,8 @@
                 "stef/key-value-manipulation": "dev-master",
                 "stef/manipulation": "dev-master",
                 "stef/slug-manipulation": "dev-master",
-                "twbs/bootstrap": "3.0.*",
-                "twig/extensions": "~1.2"
+                "twbs/bootstrap": "~3.3",
+                "twig/extensions": "~1.3"
             },
             "type": "project",
             "autoload": {
@@ -3397,7 +3326,7 @@
                 "source": "https://github.com/stefanius/simple-cms-bundle/tree/master",
                 "issues": "https://github.com/stefanius/simple-cms-bundle/issues"
             },
-            "time": "2015-11-26 22:55:50"
+            "time": "2015-11-27 20:49:24"
         },
         {
             "name": "stef/slug-manipulation",
@@ -3889,27 +3818,30 @@
         },
         {
             "name": "twbs/bootstrap",
-            "version": "v3.0.3",
+            "version": "v3.3.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/twbs/bootstrap.git",
-                "reference": "6d03173a1aad98e75f7d33e65b411c519176c59a"
+                "reference": "81df608a40bf0629a1dc08e584849bb1e43e0b7a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/twbs/bootstrap/zipball/6d03173a1aad98e75f7d33e65b411c519176c59a",
-                "reference": "6d03173a1aad98e75f7d33e65b411c519176c59a",
+                "url": "https://api.github.com/repos/twbs/bootstrap/zipball/81df608a40bf0629a1dc08e584849bb1e43e0b7a",
+                "reference": "81df608a40bf0629a1dc08e584849bb1e43e0b7a",
                 "shasum": ""
+            },
+            "replace": {
+                "twitter/bootstrap": "self.version"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "3.0.x-dev"
+                    "dev-master": "3.3.x-dev"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
-                "Apache-2.0"
+                "MIT"
             ],
             "authors": [
                 {
@@ -3921,13 +3853,19 @@
                     "email": "markdotto@gmail.com"
                 }
             ],
-            "description": "Sleek, intuitive, and powerful mobile first front-end framework for faster and easier web development.",
+            "description": "The most popular front-end framework for developing responsive, mobile first projects on the web.",
             "homepage": "http://getbootstrap.com",
             "keywords": [
-                "bootstrap",
-                "css"
+                "JS",
+                "css",
+                "framework",
+                "front-end",
+                "less",
+                "mobile-first",
+                "responsive",
+                "web"
             ],
-            "time": "2013-12-05 16:09:10"
+            "time": "2015-11-24 19:37:05"
         },
         {
             "name": "twig/extensions",
@@ -4084,62 +4022,6 @@
                 "symfony"
             ],
             "time": "2015-07-21 09:21:37"
-        },
-        {
-            "name": "yohang/calendr",
-            "version": "1.0.6",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/yohang/CalendR.git",
-                "reference": "c602eda9d246e9c61eded01bf98dfec967bea4b9"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/yohang/CalendR/zipball/c602eda9d246e9c61eded01bf98dfec967bea4b9",
-                "reference": "c602eda9d246e9c61eded01bf98dfec967bea4b9",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.3.0"
-            },
-            "require-dev": {
-                "doctrine/common": "~2.3",
-                "doctrine/orm": "~2.3",
-                "google/google-api-php-client": "0.6.2",
-                "phpunit/phpunit": "~3.7",
-                "silex/silex": "~1.1",
-                "twig/twig": "~1.13"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.0.x-dev"
-                }
-            },
-            "autoload": {
-                "psr-0": {
-                    "CalendR": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Yohan Giarelli",
-                    "email": "yohan@giarel.li",
-                    "homepage": "http://yohan.giarel.li"
-                }
-            ],
-            "description": "Object Oriented calendar management",
-            "homepage": "https://github.com/yohang/CalendR",
-            "keywords": [
-                "calendar",
-                "date",
-                "events"
-            ],
-            "time": "2013-09-10 14:18:04"
         }
     ],
     "packages-dev": [],
@@ -4150,7 +4032,6 @@
         "friendsofsymfony/user-bundle": 20,
         "jms/di-extra-bundle": 20,
         "jms/serializer-bundle": 20,
-        "stef/crud-contract": 20,
         "stef/manipulation": 20,
         "stef/slug-manipulation": 20,
         "stef/key-value-manipulation": 20,

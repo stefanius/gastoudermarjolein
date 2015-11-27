@@ -66,13 +66,13 @@ stef_gastouder_marjolein_news_archive_index:
     pattern:  /nieuws
     defaults: { _controller: StefGastouderMarjoleinBundle:News:showMainNewsPage }
     requirements:
-        _method:  GET
+        methods:  GET
 
 stef_gastouder_marjolein_news_show:
     pattern:  /nieuws/{slug}
     defaults: { _controller: StefGastouderMarjoleinBundle:News:show }
     requirements:
-        _method:  GET
+        methods:  GET
 
 stef_gastouder_marjolein_sitemap:
     path:     /sitemap.xml
