@@ -5,6 +5,19 @@ use Symfony\Component\Config\Loader\LoaderInterface;
 
 class AppKernel extends Kernel
 {
+    /**
+     * @param string $environment
+     * @param bool   $debug
+     */
+    public function __construct($environment, $debug)
+    {
+        parent::__construct($environment, $debug);
+        date_default_timezone_set( 'Europe/Amsterdam' );
+    }
+
+    /**
+     * @return array
+     */
     public function registerBundles()
     {
         $bundles = array(
@@ -18,8 +31,6 @@ class AppKernel extends Kernel
             new Doctrine\Bundle\DoctrineBundle\DoctrineBundle(),
             new Sensio\Bundle\FrameworkExtraBundle\SensioFrameworkExtraBundle(),
             new Doctrine\Bundle\FixturesBundle\DoctrineFixturesBundle(),
-            /*FrequenceWeb*/
-            new FrequenceWeb\Bundle\CalendRBundle\FrequenceWebCalendRBundle(), //Twig Calendar extensions
             /*Braincrafted */
             new Braincrafted\Bundle\BootstrapBundle\BraincraftedBootstrapBundle(),
             /* FOS*/
@@ -48,14 +59,11 @@ class AppKernel extends Kernel
         return $bundles;
     }
 
+    /**
+     * @param LoaderInterface $loader
+     */
     public function registerContainerConfiguration(LoaderInterface $loader)
     {
         $loader->load(__DIR__.'/config/config_'.$this->getEnvironment().'.yml');
-    }
-
-    public function init()
-    {
-        date_default_timezone_set( 'Europe/Amsterdam' );
-        parent::init();
     }
 }
