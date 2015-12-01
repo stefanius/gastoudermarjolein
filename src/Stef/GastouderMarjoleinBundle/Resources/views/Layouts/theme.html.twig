@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+
+<html lang="nl">
+{% include 'StefGastouderMarjoleinBundle:Travelfly:head.html.twig' %}
+<body class="home blog custom-background ">
+<div class="wrapper">
+    <header id="branding">
+        <div class="container clearfix">
+            <div class="hgroup-wrap clearfix">
+                <section class="hgroup-right">
+                    {% include 'StefGastouderMarjoleinBundle:Travelfly:social.html.twig' %}
+                </section>
+
+                {% include 'StefGastouderMarjoleinBundle:Elements:brand.html.twig' %}
+
+            </div>
+        </div>
+
+        {% include 'StefGastouderMarjoleinBundle:Elements:navbar.html.twig' %}
+
+        {% if showSlider %}
+            {% include 'StefGastouderMarjoleinBundle:Travelfly:slider.html.twig' %}
+        {% endif %}
+
+    </header>
+
+    {% block body %}
+
+    {% endblock %}
+
+    {% include 'StefGastouderMarjoleinBundle:Travelfly:footer.html.twig' %}
+</div>
+{% include 'StefGastouderMarjoleinBundle:Travelfly:js-footer.html.twig' %}
+</body>
+</html>

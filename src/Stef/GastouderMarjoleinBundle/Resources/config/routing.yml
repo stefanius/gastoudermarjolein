@@ -6,6 +6,10 @@ stef_gastouder_marjolein_page_contact:
     path:     /contact
     defaults: { _controller: StefGastouderMarjoleinBundle:Contact:contact }
 
+stef_gastouder_marjolein_page_contact_form:
+    path:     /contact-formulier
+    defaults: { _controller: StefGastouderMarjoleinBundle:Contact:contactForm }
+
 stef_gastouder_marjolein_page_timeplan:
     path:     /dagindeling
     defaults:

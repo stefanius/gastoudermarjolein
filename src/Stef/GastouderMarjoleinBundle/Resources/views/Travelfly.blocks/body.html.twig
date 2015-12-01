@@ -1,0 +1,60 @@
+<body class="home blog custom-background ">
+
+<div class="wrapper">
+    <header id="branding">
+
+        <div class="container clearfix">
+            <div class="hgroup-wrap clearfix">
+                <section class="hgroup-right">
+                    {% include 'StefGastouderMarjoleinBundle:Travelfly:social.html.twig' %}
+                </section>
+                <!-- .hgroup-right -->
+                {% include 'StefGastouderMarjoleinBundle:Travelfly:brand.html.twig' %}
+                <!-- #site-logo -->
+
+            </div>
+            <!-- .hgroup-wrap -->
+        </div>
+
+        {% include 'StefGastouderMarjoleinBundle:Travelfly:navbar.html.twig' %}
+        {% include 'StefGastouderMarjoleinBundle:Travelfly:slider.html.twig' %}
+
+    </header>
+
+    <div id="main" class="container clearfix">
+
+        <div id="container">
+
+            <div id="primary" class="no-margin-left">
+                <div id="content">
+                    {% include 'StefGastouderMarjoleinBundle:Travelfly:post-1.html.twig' %}
+                    {% include 'StefGastouderMarjoleinBundle:Travelfly:post-2.html.twig' %}
+                    {% include 'StefGastouderMarjoleinBundle:Travelfly:post-3.html.twig' %}
+                    {% include 'StefGastouderMarjoleinBundle:Travelfly:post-4.html.twig' %}
+                    {% include 'StefGastouderMarjoleinBundle:Travelfly:post-5.html.twig' %}
+                    {% include 'StefGastouderMarjoleinBundle:Travelfly:post-6.html.twig' %}
+                    {% include 'StefGastouderMarjoleinBundle:Travelfly:post-7.html.twig' %}
+                    {% include 'StefGastouderMarjoleinBundle:Travelfly:post-8.html.twig' %}
+                    {% include 'StefGastouderMarjoleinBundle:Travelfly:post-9.html.twig' %}
+                    {% include 'StefGastouderMarjoleinBundle:Travelfly:post-10.html.twig' %}
+
+                </div>
+                <!-- #content --></div>
+
+            <div id="secondary">
+                {% include 'StefGastouderMarjoleinBundle:Travelfly:widget-search.html.twig' %}
+                {% include 'StefGastouderMarjoleinBundle:Travelfly:widget-inline-style.html.twig' %}
+                {% include 'StefGastouderMarjoleinBundle:Travelfly:widget-recent-post.html.twig' %}
+                {% include 'StefGastouderMarjoleinBundle:Travelfly:widget-categories.html.twig' %}
+                {% include 'StefGastouderMarjoleinBundle:Travelfly:widget-nav-menu.html.twig' %}
+                {% include 'StefGastouderMarjoleinBundle:Travelfly:widget-calendar.html.twig' %}
+            </div>
+            <!-- #secondary --></div>
+
+    </div>
+    <!-- #main -->
+
+    {% include 'StefGastouderMarjoleinBundle:Travelfly:footer.html.twig' %}
+</div>
+{% include 'StefGastouderMarjoleinBundle:Travelfly:js-footer.html.twig' %}
+</body>

@@ -1,17 +1,8 @@
-{% extends "StefGastouderMarjoleinBundle::freelayout.html.twig" %}
+{% set showSlider = false %}
 
-{% block htmlbody %}
+{% extends "StefGastouderMarjoleinBundle:Layouts:one-column-layout.html.twig" %}
 
-    <div class="container">
-        <div class="row">
-            <div class="index-slider">
-                <div id="owl-demo" class="owl-carousel owl-theme">
-                    <div class="item"><img src="/assets/img/masthead/money.jpg" alt="Een selectie kinderboeken"></div>
-                </div>
-            </div>
-        </div>
-    </div>
-
+{% block content %}
     <div class="container pt">
 
         <div class="row mt">
@@ -46,5 +37,6 @@
         </div>
 
     </div>
-
 {% endblock %}
+
+

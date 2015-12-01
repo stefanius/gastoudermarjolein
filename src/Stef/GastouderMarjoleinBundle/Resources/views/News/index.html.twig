@@ -1,15 +1,8 @@
-{% extends 'StefGastouderMarjoleinBundle::freelayout.html.twig' %}
+{% set showSlider = false %}
 
-{% block htmlbody %}
-    <div class="container">
-        <div class="row">
-            <div class="index-slider">
-                <div id="owl-demo" class="owl-carousel owl-theme">
-                    <div class="item"><img src="/assets/img/masthead/haru1.jpg" alt="Spelen met Winey the Pooh"></div>
-                </div>
-            </div>
-        </div>
-    </div>
+{% extends "StefGastouderMarjoleinBundle:Layouts:one-column-layout.html.twig" %}
+
+{% block content %}
 
     <div class="container pt">
         <div class="row mt">
@@ -33,6 +26,4 @@
         </div>
 
     </div>
-
-
 {% endblock %}

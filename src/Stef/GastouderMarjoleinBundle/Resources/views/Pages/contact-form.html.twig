@@ -1,0 +1,11 @@
+{% set showSlider = false %}
+
+{% extends "StefGastouderMarjoleinBundle:Layouts:one-column-layout.html.twig" %}
+
+{% block content %}
+    <h2>Contactformulier</h2>
+    <form action="{{ path('stef_gastouder_marjolein_page_contact_form') }}" method="post" {{form_enctype(form) }}>
+        {{ form_widget(form) }}
+        <button type="submit">Verstuur</button>
+    </form>
+{% endblock %}

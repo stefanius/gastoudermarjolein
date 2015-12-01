@@ -9,7 +9,7 @@ use Symfony\Component\HttpFoundation\Request;
 
 class ContactController extends BaseController
 {
-    public function contactAction(Request $request)
+    public function contactFormAction(Request $request)
     {
         $form = $this->createForm(new ContactType());
 
@@ -34,9 +34,15 @@ class ContactController extends BaseController
             }
         }
 
-        return $this->render('StefGastouderMarjoleinBundle:Default:contact.html.twig', [
-            'page' => $this->getContactPageData(),
+        return $this->render('StefGastouderMarjoleinBundle:Pages:contact-form.html.twig', [
             'form' => $form->createView(),
+        ]);
+    }
+
+    public function contactAction(Request $request)
+    {
+        return $this->render('StefGastouderMarjoleinBundle:Pages:contact.html.twig', [
+            'page' => $this->getContactPageData(),
         ]);
     }
 

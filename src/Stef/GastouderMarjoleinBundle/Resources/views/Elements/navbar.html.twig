@@ -1,21 +1,54 @@
-<div class="navbar navbar-inverse navbar-static-top">
-    <div class="container">
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="{{ path('stef_gastouder_marjolein_page_homepage') }}">GASTOUDER MARJOLEIN</a>
-        </div>
-        <div class="navbar-collapse collapse">
-            <ul class="nav navbar-nav navbar-right">
-                <li><a href="{{ path('stef_gastouder_marjolein_page_about_roommates') }}">Even voorstellen</a></li>
-                <li><a href="{{ path('stef_gastouder_marjolein_page_openingshours') }}">Openingstijden</a></li>
-                <li><a href="{{ path('stef_gastouder_marjolein_page_timeplan') }}">Dagschema</a></li>
-                <li><a href="{{ path('stef_gastouder_marjolein_page_contact') }}">Contact</a></li>
-                <li><a href="{{ path('stef_gastouder_marjolein_news_archive_index') }}">Nieuws</a></li>
-            </ul>
-        </div>
-    </div>
-</div>
+<nav id="main-nav" class="clearfix">
+    <div class="container clearfix">
+        <ul class="root l_tinynav1">
+            <li id="menu-item-964"
+                class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-964">
+                <a href="/travelfly/travelfly - Responsive WordPress Travel Theme Demo.html">Home</a>
+            </li>
+
+            <li id="menu-item-1257" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1257 {{ (app.request.attributes.get('_route') == 'stef_gastouder_marjolein_news_archive_index') ? 'current-menu-item current_page_item' }}">
+                <a href="{{ path('stef_gastouder_marjolein_news_archive_index') }}">Nieuws</a>
+            </li>
+
+            <li id="menu-item-1257" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1257 {{ (app.request.attributes.get('_route') == 'stef_gastouder_marjolein_page_about_roommates') ? 'current-menu-item current_page_item' }}">
+                <a href="{{ path('stef_gastouder_marjolein_page_about_roommates') }}">Even voorstellen</a>
+            </li>
+
+            <li id="menu-item-1257" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1257 {{ (app.request.attributes.get('_route') == 'stef_gastouder_marjolein_page_openingshours') ? 'current-menu-item current_page_item' }}">
+                <a href="{{ path('stef_gastouder_marjolein_page_openingshours') }}">Openingstijden</a>
+            </li>
+
+            <li id="menu-item-1257" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1257 {{ (app.request.attributes.get('_route') == 'stef_gastouder_marjolein_page_timeplan') ? 'current-menu-item current_page_item' }}">
+                <a href="{{ path('stef_gastouder_marjolein_page_timeplan') }}">Dagschema</a>
+            </li>
+
+            <li id="menu-item-1257" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1257 {{ (app.request.attributes.get('_route') == 'stef_gastouder_marjolein_page_contact') ? 'current-menu-item current_page_item' }}">
+                <a href="{{ path('stef_gastouder_marjolein_page_contact') }}">Contact</a>
+            </li>
+
+        </ul>
+
+        <select class="tinynav tinynav1">
+            <option value="https://colorlib.com/travelfly/" selected="selected">Home</option>
+            <option value="https://colorlib.com/wp/travelfly/">Download NOW!</option>
+            <option value="https://colorlib.com/travelfly/blog/">Blog</option>
+            <option value="https://colorlib.com/travelfly/blog/">- Blog Medium Images</option>
+            <option value="https://colorlib.com/travelfly/blog-large-image/">- Blog Large Images</option>
+            <option value="https://colorlib.com/travelfly/blog-full-content/">- Blog Full Content</option>
+            <option value="https://colorlib.com/travelfly/category/new-work/">New York</option>
+            <option value="https://colorlib.com/travelfly/category/other-destinations/">Other</option>
+            <option value="https://colorlib.com/travelfly/category/new-work/">- New York</option>
+            <option value="https://colorlib.com/travelfly/category/spain/">- Spain</option>
+            <option value="https://colorlib.com/travelfly/category/france/">- France</option>
+            <option value="https://colorlib.com/travelfly/category/miami/">- Miami</option>
+            <option value="https://colorlib.com/travelfly/category/italy/">- Italy</option>
+            <option value="https://colorlib.com/travelfly/category/spain/">Spain</option>
+            <option value="https://colorlib.com/travelfly/category/france/">France</option>
+            <option value="https://colorlib.com/travelfly/category/italy/">Italy</option>
+            <option value="https://colorlib.com/travelfly/category/miami/">Miami</option>
+            <option value="https://colorlib.com/travelfly/shop/">WooCommerce</option>
+            <option value="https://colorlib.com/travelfly/contact-us/">Contact us</option>
+            <option value="https://colorlib.com/travelfly/">Navigation</option>
+        </select></div>
+    <!-- .container -->
+</nav>
