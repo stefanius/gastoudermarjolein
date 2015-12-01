@@ -1,17 +1,8 @@
-{% extends "StefGastouderMarjoleinBundle::freelayout.html.twig" %}
+{% set showSlider = false %}
 
-{% block htmlbody %}
+{% extends "StefGastouderMarjoleinBundle:Layouts:one-column-layout.html.twig" %}
 
-    <div class="container">
-        <div class="row">
-            <div class="index-slider">
-                <div id="owl-demo" class="owl-carousel owl-theme">
-                    <div class="item"><img src="/assets/img/masthead/clock.jpg" alt="Een echte pendule!"></div>
-                </div>
-            </div>
-        </div>
-    </div>
-
+{% block content %}
     <div class="container pt">
 
         <div class="row mt">
@@ -48,12 +39,12 @@
                 <p>
                     De kinderen worden gebracht of indien ze hier overnacht hebben uit bed gehaald. Voor de vroege vogels is er ontbijt en zal ik de dag gaan opstarten. Tot half 10 kunnen de kinderen wakker worden en vrij spelen.
 
-                    <ul>
-                        <li><strong>09:30</strong>&nbsp;Drink moment met fruit</li>
-                        <li><strong>10:00</strong>&nbsp;Verschonen & plassen</li>
-                        <li><strong>10:30</strong>&nbsp;Gezamelijke activiteit of als het lekker weer is naar buiten</li>
-                        <li><strong>11:45</strong>&nbsp;Verschonen & plassen</li>
-                    </ul>
+                <ul>
+                    <li><strong>09:30</strong>&nbsp;Drink moment met fruit</li>
+                    <li><strong>10:00</strong>&nbsp;Verschonen & plassen</li>
+                    <li><strong>10:30</strong>&nbsp;Gezamelijke activiteit of als het lekker weer is naar buiten</li>
+                    <li><strong>11:45</strong>&nbsp;Verschonen & plassen</li>
+                </ul>
                 </p>
             </div>
         </div>

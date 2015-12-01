@@ -1,0 +1,15 @@
+{% extends "StefGastouderMarjoleinBundle:Layouts:theme.html.twig" %}
+
+{% block body %}
+    <div id="main" class="container clearfix">
+        <div id="container">
+            <div id="primary" class="no-margin-left single-column">
+                <div id="content">
+                    {% block content %}
+
+                    {% endblock %}
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}

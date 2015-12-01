@@ -13,7 +13,7 @@ class IndexController extends Controller
         $page->setDescription('Gastouder Marjolein heeft een ruime ervaring met oppassen in Dodrecht. Als u een goede gastouder in Dordrecht zoekt, stop met zoeken!');
         $page->setTitle('Gastouder Marjolein Dordrecht');
 
-        return $this->render('StefGastouderMarjoleinBundle:Default:index.html.twig', [
+        return $this->render('StefGastouderMarjoleinBundle:Pages:index.html.twig', [
             'page' => $page
         ]);
     }
